@@ -9,7 +9,7 @@ create database db_pizzaria_legal;
     		primary key(id)
 		);
 
-		insert into tb_categoria (id_tipo, sabor, borda) values (1, 'Calabresa', 'S'), (2, 'Mussarela', 'N'), (3, 'Portuguesa', 'S'), (4, 'Portuguesa', 'N'), (5, 'Portuguesa', 'S');
+		insert into tb_categoria (id_tipo, sabor, borda) values (1, 'Calabresa', 'S'), (2, 'Mussarela', 'N'), (3, 'Palmito', 'S'), (4, 'Portuguesa', 'N'), (5, 'Pizzaiolo', 'S');
 
 		create table tb_pizza(
 		id int(5) auto_increment,
