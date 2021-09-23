@@ -20,7 +20,7 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite o  primeiro valor do plano 1: ")
-				//Para a leitura de dados:
+				//Para a Leitura dos Dados Inseridos pelo Usuário:
 				leia(x1)
 				
 				escreva("Agora, digite o segundo valor do plano 1: ")
@@ -40,6 +40,7 @@ programa{
 					distanciaRaiz = Matematica.raiz(distanciaPotencia, 2)
 				
 			//Saída de Dados:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
 				escreva("A distancia entre os pontos é: ", + distanciaRaiz)
 				
 		}
