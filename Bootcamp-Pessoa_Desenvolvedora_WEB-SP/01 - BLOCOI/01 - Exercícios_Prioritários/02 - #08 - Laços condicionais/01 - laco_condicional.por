@@ -26,11 +26,17 @@ programa{
 
 		//Processamento de Dados:
 			se(peso == 50){
-			escreva("Multa: R$ 0,00 ")
-			}
+		//Saída de Dados:
+			//Saída de Dados 1:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
+				escreva("Multa: R$ 0,00 ")
+				}
 
 				senao se(peso >= pesoReg){
 				multa = (peso * 4.00) - 50
+		//Saída de Dados:
+			//Saída de Dados:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
 				escreva("Multa: R$ " + multa)
 				}
 			
