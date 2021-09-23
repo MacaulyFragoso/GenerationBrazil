@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas.
 programa{
 
-	/*Programa: ConcessCalc
+	/*Programa: ConcessCalc.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -21,7 +21,7 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para iniciarmos, digite o valor de fábrica do veículo: ")
-				//Para a leitura de dados.
+				//Para a leitura de dados:
 				leia(custoFabrica)
 
 			//Processamento de Dados:
@@ -35,7 +35,7 @@ programa{
 			//Saída de Dados:
 				escreva("O custo ao consumidor do veículo é: ", mat.arredondar (custoConsumidor, 2))
 				
-			}
+		}
 			
 }
 /* $$$ Portugol Studio $$$ 
