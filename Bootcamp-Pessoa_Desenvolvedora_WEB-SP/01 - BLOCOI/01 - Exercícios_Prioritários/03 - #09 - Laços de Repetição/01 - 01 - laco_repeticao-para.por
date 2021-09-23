@@ -60,6 +60,7 @@ programa{
 			escreva("\nPercentual de pessoas com salário até R$100,00 é de: " + percentualPs100 + "%" + "\n")	
 		
 	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
