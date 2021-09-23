@@ -19,7 +19,7 @@ programa{
 
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
-				escreva("Para começarmos, digite 3 números inteiros, sendo eles positivos: \n")
+				escreva("Para prosseguirmos, digite 3 números inteiros, sendo eles positivos: \n")
 				escreva("Numero A: ")
 				//Para a leitura de dados:
 				leia(numeroA)
