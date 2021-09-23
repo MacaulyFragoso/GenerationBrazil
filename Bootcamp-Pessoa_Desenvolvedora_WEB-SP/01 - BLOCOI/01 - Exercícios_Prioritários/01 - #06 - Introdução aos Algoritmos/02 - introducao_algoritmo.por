@@ -17,6 +17,7 @@ programa{
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Em números, digite quantos dias de vida você tem: ")
+				//Para a leitura de dados:
 				leia(idadeDias)
 
 		//Processamento de Dados:
@@ -25,6 +26,7 @@ programa{
 			dias = (idadeDias % 365)%30
 
 		//Saída de Dados:
+			//Saída de Dados com o Usuário, com Texto em Bloco:
 			escreva( "Você tem: " + anos + " anos " + meses + " meses " + dias + " dias ")
 			
 	}
