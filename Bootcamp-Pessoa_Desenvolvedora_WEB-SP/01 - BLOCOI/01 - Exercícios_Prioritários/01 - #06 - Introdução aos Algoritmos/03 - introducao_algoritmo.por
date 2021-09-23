@@ -26,6 +26,7 @@ programa{
 			segundos = (segundo % 3600)%60
 
 		//Saída de Dados:
+			//Saída de Dados com o Usuário, com Texto em Bloco:
 			escreva( "O evento durou: " + hora + " horas " + minuto + " minutos " + segundos + " segundos ")
 			
 	}
