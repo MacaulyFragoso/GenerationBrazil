@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa:
+	/*Programa: 4N.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -22,6 +22,7 @@ programa{
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Para iniciarmos, digite 4 numeros a seguir: ")
 			escreva("\nNumero 1: ")
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(numero1)
 			
 			escreva("\nNumero 2: ")
@@ -35,21 +36,20 @@ programa{
 
 		//Processamento de Dados:
 			//Processamento de Dados 1:
-			quadrado1 = numero1 * numero1
-			quadrado2 = numero2 * numero2
-			quadrado3 = numero3 * numero3
-			quadrado4 = numero4 * numero4
+				quadrado1 = numero1 * numero1
+				quadrado2 = numero2 * numero2
+				quadrado3 = numero3 * numero3
+				quadrado4 = numero4 * numero4
 
 			//Processamento de Dados 2:
-			se (quadrado3 > 1000){
+				se(quadrado3 > 1000){
 
-			//Entrada de Dados:
-				//Entrada de Dados 1:
+		//Entrada de Dados:
+			//Entrada de Dados 1:
 				escreva("O valor resultante do quadrado do terceiro é: " + quadrado3)
-			}
-			senao{
-
-				//Entrada de Dados 2:
+				}
+					senao{
+			//Entrada de Dados 2:
 				escreva("\nO valor quadrado do número " + numero1 + " é igual a: " + quadrado1)
 				escreva("\nO valor quadrado do número " + numero2 + " é igual a: " + quadrado2)
 				escreva("\nO valor quadrado do número " + numero3 + " é igual a: " + quadrado3)
