@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas.
 programa{
 
-	/*Programa: NotatoN
+	/*Programa: NotatoN.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -9,15 +9,15 @@ programa{
  	 * Exercício 5: Faça um sistema que leia as 3 notas de um aluno e calcule a média final deste aluno. Considerar que a média é ponderada
  	   e que o peso das notas é: 2,3 e 5, respectivamente.*/
 	
-		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 		funcao inicio(){
 		
-			//Variável = Tipo de Dado + Declaração, respectivamente.
+			//Variável = Tipo de Dado + Declaração, respectivamente:
 				inteiro peso1 = 2, peso2 = 3, peso3 = 5
 				inteiro valor1, valor2, valor3, media, soma1, soma2, soma3, mediaFinal
 
 			//Entrada de Dados:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
+				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Em números, digite o valor para a primeira nota: ")
 				leia(valor1)
 
