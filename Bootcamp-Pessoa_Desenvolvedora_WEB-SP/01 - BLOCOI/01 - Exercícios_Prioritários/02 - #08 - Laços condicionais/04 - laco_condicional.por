@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa:
+	/*Programa: 3..2..1.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -11,29 +11,37 @@ programa{
 	funcao inicio(){
 
    		//Variável = Tipo de Dado + Declaração, respectivamente:
-   		inteiro numero
-   		
+   			inteiro numero
+			
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
    		   	escreva("\nPara iniciarmos, digite o 1° Número que vier a sua mente: ")
-   		   	//Para a leitura de dados:
-      		leia(numero)
+   		   	//Para a Leitura dos Dados Inseridos pelo Usuário:
+      			leia(numero)
       		
 		//Processamento de Dados:
-     	se(numero % 2 == 0){
-        		escreva("\nEste número ",numero," é par ")
-        	}
-        	
-	   		senao{
+     			se(numero % 2 == 0){
+		//Entrada de Dados:
+			//Entrada de Dados 1:
+				//Entrada de Dados com o Usuário:
+        			escreva("\nEste número ",numero," é par ")
+        		}
+	   			senao{
+			//Entrada de Dados 2:
+				//Entrada de Dados com o Usuário
 	   			escreva("\nEste número ",numero," é impar ")
-	   		}
+	   			}
 
-	   se(numero >=0){
-	   	escreva("\nAlém de ",numero," também ser um número positivo ")
-	   }
-	   		senao{
+	   		se(numero >=0){
+			//Entrada de Dados 3:
+				//Entrada de Dados com o Usuário
+	   			escreva("\nAlém de ",numero," também ser um número positivo ")
+	  		}
+	   			senao{
+			//Entrada de Dados 4:
+				//Entrada de Dados com o Usuário
 	   			escreva("\n Além de ",numero," também ser um número negativo ")
-	   		}
+	   			}
 		
 	}
 }
