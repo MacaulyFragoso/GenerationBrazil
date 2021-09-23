@@ -40,6 +40,7 @@ programa{
 
 			//Entrada de Dados:
 				escreva("O resultado da expressão é: " + resultado)
+				
 		}
 		
 }
