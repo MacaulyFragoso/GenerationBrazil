@@ -1,4 +1,4 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
 
 	/*Programa: ConverSário
@@ -8,14 +8,14 @@ programa{
  	 * #06 - Introdução aos Algoritmos.
  	 * Exercício 2: Faça um sistema que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.*/
 	  
-	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 	
-		//Variável = Tipo de Dado + Declaração, respectivamente.
+		//Variável = Tipo de Dado + Declaração, respectivamente:
 			inteiro idadeDias, anos, meses, dias
 
 		//Entrada de Dados:
-			//Entrada de Dados com o Usuário, com Texto em Bloco.
+			//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Em números, digite quantos dias de vida você tem: ")
 				leia(idadeDias)
 
@@ -27,7 +27,7 @@ programa{
 		//Saída de Dados:
 			escreva( "Você tem: " + anos + " anos " + meses + " meses " + dias + " dias ")
 			
-		}
+	}
 		
 }
 /* $$$ Portugol Studio $$$ 
