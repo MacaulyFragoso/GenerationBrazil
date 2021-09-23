@@ -11,25 +11,25 @@ programa{
 
  	inclua biblioteca Matematica
 
-		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos
 		funcao inicio(){
 
 			//Variável = Tipo de Dado + Declaração, respectivamente:
 				real x1, y1, x2, y2, distanciaRaiz, distanciaPotencia
 		
 			//Entrada de Dados:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
+				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite o  primeiro valor do plano 1: ")
-				//Para a leitura de dados.
+				//Para a leitura de dados:
 				leia(x1)
 				
-				escreva("Para começarmos, digite o segundo valor do plano 1: ")
+				escreva("Agora, digite o segundo valor do plano 1: ")
 				leia(y1)
 				
-				escreva("Para começarmos, digite o  primeiro valor do plano 2: ")
+				escreva("Digite o  primeiro valor do plano 2: ")
 				leia(x2)
 				
-				escreva("Para começarmos, digite o segundo valor do plano 2: ")
+				escreva("E agora, digite o segundo valor do plano 2: ")
 				leia(y2)	
 
 			//Processamento de Dados:
@@ -42,7 +42,7 @@ programa{
 			//Saída de Dados:
 				escreva("A distancia entre os pontos é: ", + distanciaRaiz)
 				
-			}
+		}
 				
 }
 /* $$$ Portugol Studio $$$ 
