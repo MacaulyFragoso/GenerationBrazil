@@ -1,4 +1,4 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
 
 	/*Programa: CronômetroX
@@ -8,16 +8,16 @@ programa{
  	 * #06 - Introdução aos Algoritmos.
  	 * Exercício 3: Faça um sistema que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos.*/
 	
-	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 	
-		//Variável = Tipo de Dado + Declaração, respectivamente.
+		//Variável = Tipo de Dado + Declaração, respectivamente:
 			inteiro segundo, hora, minuto, segundos
 
 		//Entrada de Dados:
-			//Entrada de Dados com o Usuário, com Texto em Bloco.
+			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Em números, digite quantos segundos durou o evento: ")
-			//Para a leitura de dados.
+			//Para a leitura de dados:
 			leia(segundo)
 
 		//Processamento de Dados:
@@ -28,7 +28,7 @@ programa{
 		//Saída de Dados:
 			escreva( "O evento durou: " + hora + " horas " + minuto + " minutos " + segundos + " segundos ")
 			
-		}
+	}
 		
 }
 /* $$$ Portugol Studio $$$ 
