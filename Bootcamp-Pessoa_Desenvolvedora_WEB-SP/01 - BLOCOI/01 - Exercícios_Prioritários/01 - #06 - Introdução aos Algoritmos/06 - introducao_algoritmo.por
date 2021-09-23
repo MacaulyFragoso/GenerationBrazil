@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas.
 programa{
 
-	/*Programa: CalculoExpress2
+	/*Programa: Distancializando.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB | Generation Brazil.
  	 * BLOCO I.
@@ -14,7 +14,7 @@ programa{
 		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
 		funcao inicio(){
 
-			//Variável = Tipo de Dado + Declaração, respectivamente.
+			//Variável = Tipo de Dado + Declaração, respectivamente:
 				real x1, y1, x2, y2, distanciaRaiz, distanciaPotencia
 		
 			//Entrada de Dados:
@@ -22,19 +22,27 @@ programa{
 				escreva("Para começarmos, digite o  primeiro valor do plano 1: ")
 				//Para a leitura de dados.
 				leia(x1)
+				
 				escreva("Para começarmos, digite o segundo valor do plano 1: ")
 				leia(y1)
+				
 				escreva("Para começarmos, digite o  primeiro valor do plano 2: ")
 				leia(x2)
+				
 				escreva("Para começarmos, digite o segundo valor do plano 2: ")
 				leia(y2)	
 
 			//Processamento de Dados:
-				distanciaPotencia = (Matematica.potencia((x2 - x1),2)) + (Matematica.potencia((y2 - y1),2))
-				distanciaRaiz = Matematica.raiz(distanciaPotencia, 2)
-			//Processamento de Dados:
+				//Processamento de Dados 1:
+					distanciaPotencia = (Matematica.potencia((x2 - x1),2)) + (Matematica.potencia((y2 - y1),2))
+					
+				//Processamento de Dados 2:	
+					distanciaRaiz = Matematica.raiz(distanciaPotencia, 2)
+				
+			//Saída de Dados:
 				escreva("A distancia entre os pontos é: ", + distanciaRaiz)
-				}
+				
+			}
 				
 }
 /* $$$ Portugol Studio $$$ 
