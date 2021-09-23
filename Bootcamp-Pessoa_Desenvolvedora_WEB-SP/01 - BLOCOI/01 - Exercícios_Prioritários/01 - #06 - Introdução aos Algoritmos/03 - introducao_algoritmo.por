@@ -17,7 +17,7 @@ programa{
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Em números, digite quantos segundos durou o evento: ")
-			//Para a leitura de dados:
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(segundo)
 
 		//Processamento de Dados:
