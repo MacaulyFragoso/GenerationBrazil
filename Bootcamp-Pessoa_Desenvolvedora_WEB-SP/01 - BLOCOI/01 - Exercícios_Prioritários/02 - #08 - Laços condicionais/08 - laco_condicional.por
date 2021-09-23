@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa:
+	/*Programa: N+100!.    
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -11,30 +11,32 @@ programa{
 	funcao inicio(){
 		
 		//Variável = Tipo de Dado + Declaração, respectivamente:
-   			inteiro numero, num = 0
+   			inteiro numero, num = 0 
 
    		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:		 
    			escreva("Para iniciarmos, digite um numero: ")
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
    			leia(numero)
 
   		//Processamento de Dados:
 			//Processamento de Dados 1:
-			se(numero > 100){
+				se(numero > 100){
 				
 		//Saída de Dados:
 			//Saída de Dados 1:
-			escreva("Impressão: " + numero)				
-			}
+				escreva("Impressão: " + numero)				
+		}
 			
 			//Processamento de Dados 2:
-			senao se(numero < 100){
+				senao se(numero < 100){
 							
 			//Saída de Dados 2
-			escreva("Impressão: " + num)				
-			}
+				escreva("Impressão: " + num)				
+			} 
    					
 	}
+	
 }
 
 /* $$$ Portugol Studio $$$ 
