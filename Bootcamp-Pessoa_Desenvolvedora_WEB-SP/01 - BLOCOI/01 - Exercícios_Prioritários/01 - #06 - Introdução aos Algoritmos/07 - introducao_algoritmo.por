@@ -20,7 +20,7 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite o valor A: ")
-				//Para a leitura de dados:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
 				leia(a)
 
 				escreva("Agora, digite o valor B: ")
@@ -43,7 +43,8 @@ programa{
 				y=(a*f)-(c*d)/(a*E)-(b*d)
 
 			//Saída de Dados:
-			escreva("O valor de X é: ",mat.arredondar(x, 2),"  e "," O valor de Y é: ",mat.arredondar(y,2))
+				//Saída de Dados com o Usuário, com Texto em Bloco:
+				escreva("O valor de X é: ",mat.arredondar(x, 2),"  e "," O valor de Y é: ",mat.arredondar(y,2))
 			
 		}
 		
