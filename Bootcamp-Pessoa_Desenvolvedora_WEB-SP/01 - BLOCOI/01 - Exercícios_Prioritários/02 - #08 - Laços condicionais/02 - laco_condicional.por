@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa:
+	/*Programa: MasterERP.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -15,32 +15,34 @@ programa{
 	funcao inicio(){
 
 		//Variável = Tipo de Dado + Declaração, respectivamente:
-		real C, N, E, Salario, Excedente
+			real C, N, E, Salario, Excedente
 
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Para iniciarmos, digite o seu código: ")
-			//Para a leitura de dados:
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(C)
 
 			escreva("Ok! Agora, em números, digite as horas trabalhadas: ")
 			leia(N)
 
-				//Processamento de Dados:
-				se (N > 50){
-					E = N-50
-					Excedente = E * 20
-					Salario = 50 * 10
-					escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Excedente)
-				}
+		//Processamento de Dados:
+			se (N > 50){
+				E = N-50
+				Excedente = E * 20
+				Salario = 50 * 10
+		//Saída de Dados:
+			//Saída de Dados 1:
+			escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Excedente)
+			}
 				
-					senao{
-						E = 0
-						Salario = N * 10
+				senao{
+					E = 0
+					Salario = N * 10
 
-						//Saída de Dados:
-						escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Salario, E)
-					}
+			//Saída de Dados 2:
+			escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Salario, E)
+			}
 		
 	}
 	
