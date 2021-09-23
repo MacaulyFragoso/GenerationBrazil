@@ -1,30 +1,33 @@
-programa
-{
-	/*Programa: Qual a sua idade?
-	 * Atividade: Programação Sequencial - Exercico 2
-	 * Autor: Macauly Fragoso
- 	 * Data: 20/08/2021
- 	 * Local: Fraco da Rocha, SP
- 	 * Generation Brazil
- 	 */
-		funcao inicio()
-		{
-			//Variável e Declaração de Variável, respectivamente
-				inteiro idadeDias, anos, meses, dias
+//Package: Organizar Classes Relacionadas.
+programa{
 
-				//Entrada de Dados
-					//Entrada de Dados 1
-						escreva("Em números, digite quantos dias você tem de vida: ")
-						leia(idadeDias)
+	/*Programa: ConverSário
+	 * Autor: Macauly Fragoso.
+ 	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
+ 	 * BLOCO I.
+ 	 * #06 - Introdução aos Algoritmos.
+ 	 * Exercício 2: Faça um sistema que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.*/
+	  
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	funcao inicio(){
+	
+		//Variável = Tipo de Dado + Declaração, respectivamente.
+			inteiro idadeDias, anos, meses, dias
 
-					//Processamento de Dados
-						anos = idadeDias / 365
-						meses = (idadeDias % 365)%12
-						dias = (idadeDias % 365)%30
+		//Entrada de Dados:
+			//Entrada de Dados com o Usuário, com Texto em Bloco.
+				escreva("Em números, digite quantos dias de vida você tem: ")
+				leia(idadeDias)
 
-					//Saída de Dados	
-						escreva( "Você tem: " + anos + " anos " + meses + " meses " + dias + " dias ")
+		//Processamento de Dados:
+			anos = idadeDias / 365
+			meses = (idadeDias % 365)%12
+			dias = (idadeDias % 365)%30
+
+		//Saída de Dados:
+			escreva( "Você tem: " + anos + " anos " + meses + " meses " + dias + " dias ")
 		}
+		
 }
 /* $$$ Portugol Studio $$$ 
  * 
