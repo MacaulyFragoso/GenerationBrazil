@@ -1,31 +1,34 @@
-programa
-{
-	/*Programa: Cronometro de evento
-	 * Atividade: Programação Sequencial - Exercico 3
-	 * Autor: Macauly Fragoso
- 	 * Data: 20/08/2021
- 	 * Local: Fraco da Rocha, SP
- 	 * Generation Brazil
- 	 */
+//Package: Organizar Classes Relacionadas.
+programa{
+
+	/*Programa: CronômetroX
+	 * Autor: Macauly Fragoso.
+ 	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
+ 	 * BLOCO I.
+ 	 * #06 - Introdução aos Algoritmos.
+ 	 * Exercício 3: Faça um sistema que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos.*/
 	
-		funcao inicio()
-	{
-			//Variável e Declaração de Variável, respectivamente
-				inteiro segundo, hora, minuto, segundos
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	funcao inicio(){
+	
+		//Variável = Tipo de Dado + Declaração, respectivamente.
+			inteiro segundo, hora, minuto, segundos
 
-				//Entrada de Dados
-					//Entrada de Dados 1
-						escreva("Em números, digite quantos segundos durou o evento: ")
-						leia(segundo)
+		//Entrada de Dados:
+			//Entrada de Dados com o Usuário, com Texto em Bloco.
+			escreva("Em números, digite quantos segundos durou o evento: ")
+			//Para a leitura de dados.
+			leia(segundo)
 
-					//Processamento de Dados
-						hora = segundo / 3600
-						minuto = (segundo % 3600)/60
-						segundos = (segundo % 3600)%60
+		//Processamento de Dados:
+			hora = segundo / 3600
+			minuto = (segundo % 3600)/60
+			segundos = (segundo % 3600)%60
 
-					//Saída de Dados	
-						escreva( "O evento durou: " + hora + " horas " + minuto + " minutos " + segundos + " segundos ")
-	}
+		//Saída de Dados:
+			escreva( "O evento durou: " + hora + " horas " + minuto + " minutos " + segundos + " segundos ")
+		}
+		
 }
 /* $$$ Portugol Studio $$$ 
  * 
