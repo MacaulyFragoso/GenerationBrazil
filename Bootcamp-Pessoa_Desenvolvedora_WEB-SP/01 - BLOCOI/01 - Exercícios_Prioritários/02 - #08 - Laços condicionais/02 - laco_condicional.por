@@ -33,7 +33,7 @@ programa{
 				Salario = 50 * 10
 		//Saída de Dados:
 			//Saída de Dados 1:
-			escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Excedente)
+				escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Excedente)
 			}
 				
 				senao{
@@ -41,7 +41,7 @@ programa{
 					Salario = N * 10
 
 			//Saída de Dados 2:
-			escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Salario, E)
+				escreva("\nSalario total: R$ ", Salario, "\nExcedentes: R$ ", Salario, E)
 			}
 		
 	}
