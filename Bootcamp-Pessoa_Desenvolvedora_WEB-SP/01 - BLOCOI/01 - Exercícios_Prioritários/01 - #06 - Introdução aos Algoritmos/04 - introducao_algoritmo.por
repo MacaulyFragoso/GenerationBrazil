@@ -32,11 +32,11 @@ programa{
 
 			//Processamento de Dados:
 				//Processamento de Dados 1:
-				numeroR = (mat.potencia (numeroA, 2)) + (2 * numeroA * numeroB) + (mat.potencia (numeroB, 2))
-	     			numeroS = (mat.potencia (numeroB, 2)) + (2 * numeroC * numeroB) + (mat.potencia (numeroC, 2))
+					numeroR = (mat.potencia (numeroA, 2)) + (2 * numeroA * numeroB) + (mat.potencia (numeroB, 2))
+	     				numeroS = (mat.potencia (numeroB, 2)) + (2 * numeroC * numeroB) + (mat.potencia (numeroC, 2))
 
 				//Processamento de Dados 2:
-				resultado = (numeroR + numeroS) / 2
+					resultado = (numeroR + numeroS) / 2
 
 			//Saída de Dados:
 				//Saída de Dados com o Usuário, com Texto em Bloco:
