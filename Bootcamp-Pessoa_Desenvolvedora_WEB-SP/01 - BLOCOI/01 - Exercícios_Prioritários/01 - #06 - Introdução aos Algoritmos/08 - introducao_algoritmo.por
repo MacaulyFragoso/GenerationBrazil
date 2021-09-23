@@ -26,11 +26,11 @@ programa{
 
 			//Processamento de Dados:
 				//Processamento de Dados 1:
-				distribuidor = custoFabrica * 0.28
-				impostos = custoFabrica * 0.45
+					distribuidor = custoFabrica * 0.28
+					impostos = custoFabrica * 0.45
 			
 				//Processamento de Dados 2:
-				custoConsumidor = custoFabrica + distribuidor + impostos
+					custoConsumidor = custoFabrica + distribuidor + impostos
 			
 			//Saída de Dados:
 				//Saída de Dados com o Usuário, com Texto em Bloco:
