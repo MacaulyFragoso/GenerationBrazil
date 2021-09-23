@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa: ConverSário
+	/*Programa: ConverSário.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
