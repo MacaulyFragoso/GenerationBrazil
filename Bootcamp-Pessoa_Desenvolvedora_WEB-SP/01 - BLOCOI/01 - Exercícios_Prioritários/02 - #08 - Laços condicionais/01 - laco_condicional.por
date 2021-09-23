@@ -1,6 +1,7 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
-	/*Programa:
+
+	/*Programa: Balançou.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -10,30 +11,30 @@ programa{
  	   que você faça um sistema que leia a variável P (peso de tomates) e verifique se há excesso. Se houver, gravar na variável E (Excesso) e na variável M
  	   o valor da multa que João deverá pagar. Caso contrário mostrar tais variáveis com o conteúdo ZERO.*/
 
- 	 //Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+ 	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 		
-		//Variável = Tipo de Dado + Declaração + Valor, respectivamente.
-		real pesoReg = 50.0
-		inteiro peso, multa = 0
+		//Variável = Tipo de Dado + Declaração + Valor, respectivamente: 
+			real pesoReg = 50.0
+			inteiro peso, multa = 0
 
 		//Entrada de Dados:
-			//Entrada de Dados com o Usuário, com Texto em Bloco.
+			//Entrada de Dados com o Usuário, com Texto em Bloco: 
 			escreva("Insira o peso do Tomate: ")
-			//Para a leitura de dados.
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(peso)
 
 		//Processamento de Dados:
-		se(peso == 50){
-		escreva("Multa: R$ 0,00 ")
-		}
-
-			senao se(peso >= pesoReg){
-			multa = (peso * 4.00) - 50
-			escreva("Multa: R$ " + multa)
+			se(peso == 50){
+			escreva("Multa: R$ 0,00 ")
 			}
+
+				senao se(peso >= pesoReg){
+				multa = (peso * 4.00) - 50
+				escreva("Multa: R$ " + multa)
+				}
 			
-		}
+	}
 		
 }
 /* $$$ Portugol Studio $$$ 
