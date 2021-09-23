@@ -26,6 +26,7 @@ programa{
 
 		//Saída de Dados:
 			escreva( "Você tem: " + anos + " anos " + meses + " meses " + dias + " dias ")
+			
 		}
 		
 }
