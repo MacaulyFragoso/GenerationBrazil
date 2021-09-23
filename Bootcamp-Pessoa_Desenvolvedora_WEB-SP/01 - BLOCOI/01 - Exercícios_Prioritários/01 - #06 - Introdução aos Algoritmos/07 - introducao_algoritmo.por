@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas.
 programa{
 
-	/*Programa: CalculoExpress3
+	/*Programa: LinerX
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -11,14 +11,14 @@ programa{
 
 	inclua biblioteca Matematica -->mat
 
-		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 		funcao inicio(){
 
-			//Variável = Tipo de Dado + Declaração, respectivamente.
+			//Variável = Tipo de Dado + Declaração, respectivamente:
 				real a,b,c,d,E,f,x,y
 
 			//Entrada de Dados:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
+				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite o valor A: ")
 				//Para a leitura de dados.
 				leia(a)
@@ -42,10 +42,11 @@ programa{
 				x=(c*E)-(b*f)/(a*E)-(b*d)
 				y=(a*f)-(c*d)/(a*E)-(b*d)
 
-			//Entrada de Dados:
-			escreva("O valor de X é: ",mat.arredondar(x, 2),"  - "," O valor de Y é: ",mat.arredondar(y,2))
-			}
+			//Saída de Dados:
+			escreva("O valor de X é: ",mat.arredondar(x, 2),"  e "," O valor de Y é: ",mat.arredondar(y,2))
 			
+			}
+		
 }
 /* $$$ Portugol Studio $$$ 
  * 
