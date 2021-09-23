@@ -27,6 +27,7 @@ programa{
 
 		//Saída de Dados:
 			escreva( "O evento durou: " + hora + " horas " + minuto + " minutos " + segundos + " segundos ")
+			
 		}
 		
 }
