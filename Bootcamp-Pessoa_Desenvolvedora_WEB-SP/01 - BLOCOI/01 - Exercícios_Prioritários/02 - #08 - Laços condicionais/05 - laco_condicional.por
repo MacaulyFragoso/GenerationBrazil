@@ -3,8 +3,6 @@ programa{
 
 	/*Programa:
 	 * Autor: Macauly Fragoso.
- 	 * Tempo:
- 	 * Espaço: Franco da Rocha, SP.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
  	 * #08 - Laços Condicionais.
@@ -23,23 +21,33 @@ programa{
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Para iniciarmos, em números, digite o índice de poluição atual: ")
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(indicePoluicao)
 
 		//Processamento de Dados:
 			se (indicePoluicao <= 0.25){
+		//Saída de Dados:
+			//Saída de Dados 1:
+				//Saída de Dados com o Usuário:
 				escreva("O Índice de poluição está em conformidade.")
-			}
-				senao se (indicePoluicao > 0.25 e indicePoluicao <= 0.3){
-					escreva("Atencão! Os índices de poluição estão fora do limite. As industrias do 1º grupo serão intimadas a suspenderem as atividades.")
-				}
-				senao se(indicePoluicao == 0.4){
-					escreva("Atenção! Os índices de poluição estão fora do limite. As industrias do 1º e 2º grupo serão intimadas a suspenderem suas atividades.")
-				}
-					senao{
-						escreva("Alerta! Os níveis de poluição estão em níveis críticos! \nTodas as industrias devem paralisar suas atividades!")
-					}
-
 		}
+				senao se (indicePoluicao > 0.25 e indicePoluicao <= 0.3){
+			//Saída de Dados 2:
+				//Saída de Dados com o Usuário:
+				escreva("Atencão! Os índices de poluição estão fora do limite. As industrias do 1º grupo serão intimadas a suspenderem as atividades.")
+			}
+				senao se(indicePoluicao == 0.4){
+			//Saída de Dados 3:
+				//Saída de Dados com o Usuário:
+				escreva("Atenção! Os índices de poluição estão fora do limite. As industrias do 1º e 2º grupo serão intimadas a suspenderem suas atividades.")
+			}
+					senao{
+			//Saída de Dados 4:
+				//Saída de Dados com o Usuário:
+				escreva("Alerta! Os níveis de poluição estão em níveis críticos! \nTodas as industrias devem paralisar suas atividades!")
+			}
+
+	}
 
 }
 /* $$$ Portugol Studio $$$ 
