@@ -33,6 +33,7 @@ programa{
 				custoConsumidor = custoFabrica + distribuidor + impostos
 			
 			//Saída de Dados:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
 				escreva("O custo ao consumidor do veículo é: ", mat.arredondar (custoConsumidor, 2))
 				
 		}
