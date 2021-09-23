@@ -20,25 +20,26 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para prosseguirmos, digite 3 números inteiros, sendo eles positivos: \n")
-				escreva("Numero A: ")
+				escreva("Número A: ")
 				//Para a leitura de dados:
 				leia(numeroA)
 				
-				escreva("Numero B: ")
+				escreva("Número B: ")
 				leia(numeroB)
 				
-				escreva("Numero C: ")
+				escreva("Número C: ")
 				leia(numeroC)
 
 			//Processamento de Dados:
 				//Processamento de Dados 1:
-				numeroR=(mat.potencia (numeroA, 2)) + (2 * numeroA * numeroB) + (mat.potencia (numeroB, 2))
-	     			numeroS=(mat.potencia (numeroB, 2)) + (2 * numeroC * numeroB) + (mat.potencia (numeroC, 2))
+				numeroR = (mat.potencia (numeroA, 2)) + (2 * numeroA * numeroB) + (mat.potencia (numeroB, 2))
+	     			numeroS = (mat.potencia (numeroB, 2)) + (2 * numeroC * numeroB) + (mat.potencia (numeroC, 2))
 
 				//Processamento de Dados 2:
 				resultado = (numeroR + numeroS) / 2
 
 			//Saída de Dados:
+				//Saída de Dados com o Usuário, com Texto em Bloco:
 				escreva("O resultado da expressão é: " + resultado)
 				
 		}
