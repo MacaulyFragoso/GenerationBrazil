@@ -19,7 +19,7 @@ programa{
 			//Entrada de Dados 1:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Você gostaria de saber há quantos dias você está na Terra?\nSe sim, responda!\nEm números, quantos anos você tem?\n ")
-				//Para a leitura de dados:
+				//Para a Leitura dos Dados Inseridos pelo Usuário:
 				leia(anos)
 			
 			//Entrada de Dados 2:
