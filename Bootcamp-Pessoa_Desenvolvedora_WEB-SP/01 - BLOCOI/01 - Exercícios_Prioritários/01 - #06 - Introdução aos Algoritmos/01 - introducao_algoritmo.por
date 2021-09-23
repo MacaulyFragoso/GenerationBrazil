@@ -35,7 +35,8 @@ programa{
 			dias = (anos*365) + (meses*30) + dias
 
 		//Saída de Dados:
-			//Saída de Dados com o Usuário, com Texto em Bloco. Com "dia", referenciando o resultado do processamento.
+			//Saída de Dados com o Usuário, com Texto em Bloco:
+			// O "dia", referenciando o resultado do processamento.
 			escreva("\nVocê está na terra há: " + dias + " dias\n\nObrigado!")
 			
 	}
