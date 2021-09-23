@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa: CronômetroX
+	/*Programa: CronômetroX.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
