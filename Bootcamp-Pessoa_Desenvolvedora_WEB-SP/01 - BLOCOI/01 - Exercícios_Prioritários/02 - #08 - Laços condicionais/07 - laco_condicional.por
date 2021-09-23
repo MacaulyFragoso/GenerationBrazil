@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas:
 programa{
 	
-	/*Programa: 
+	/*Programa: CalculaTRI.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -11,13 +11,13 @@ programa{
  	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 		
-		//Variável = Tipo de Dado + Declaração, respectivamente:
+		//Variável = Tipo de Dado + Declaração + Valor, respectivamente:
 			real baseT = 0.0, alturaT = 0.0, triangulo = 0.0
 
 		//Entrada de Dados:
 			//Entrada de Dados com o Usuário, com Texto em Bloco:
 			escreva("Insira o valor da base do triângulo: ")
-			//Para a leitura de dados:
+			//Para a Leitura dos Dados Inseridos pelo Usuário:
 			leia(baseT)
 
 			escreva("Indique a altura do triângulo: ")
@@ -28,13 +28,13 @@ programa{
 				triangulo = (baseT * alturaT)/2
 
 		//Saída de Dados:
+			//Saída de Dados 1:
 			escreva("A área do triângulo é: " + triangulo)
+		}
+				senao{	
+			//Saída de Dados 2:
+			escreva("Os valores inseridos são inválidos.")
 			}
-				senao{
-						
-					//Saída de Dados
-					escreva("Os valores inseridos são inválidos.")
-				}
 	}	
 	
 }
