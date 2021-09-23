@@ -1,4 +1,4 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
 
 	/*Programa: Qual a sua classificação indicativa?
@@ -12,48 +12,57 @@ programa{
 	 - Juvenil B = 14 a 17 anos;
 	 - Adultos = Maiores de 18 anos.*/
 
-	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 
-   		//Variável = Tipo de Dado + Declaração, respectivamente.
+   		//Variável = Tipo de Dado + Declaração, respectivamente:
    			inteiro idade
 
 		//Entrada de Dados:
-			//Entrada de Dados com o Usuário, com Texto em Bloco.
-   			escreva("Insira a sua idade: ")
-   			//Para a leitura de dados.
+			//Entrada de Dados com o Usuário, com Texto em Bloco:
+   			escreva("Insira a sua idade, para conhecer a sua Classificação Indicativa: ")
+   			//Para a Leitura dos Dados Inseridos pelo Usuário:
    			leia(idade)
    			
 		//Processamento de Dados:
 			/*A condicional se  é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira.
 			  Se for falsa, executa as afirmações dentro de senao se.*/
 			//Operadores Relacionais: <: Menor; >: Maior; =: Igual.
-			//Operador Lógicp: &&: Obrigatoriamente Verdadeiro.
+			//Operador Lógico: &&: Obrigatoriamente Verdadeiro.
 			se(idade <= 5){
-			escreva("Classificação Inválida")				
-			}
-				senao se(idade >= 5 e idade <= 7){
-				escreva("Classificação Infantil A")				
-				}
-					senao se(idade >= 8 e idade <= 10){
-					escreva("Classificação Infantil B")
-					}
-						senao se(idade >= 11 e idade <= 13){
-						escreva("Classificação Juvenil A")
-						}
-							senao se(idade >= 14 e idade <= 17){
-							escreva("Classificação Juvenil B")
-							}
-								senao se(idade >= 11 e idade <= 13){
-								escreva("Classificação Juvenil B")
-								}
-									senao se(idade >= 18){
-									escreva("Classificação Adulto")
-									}
-									
-				}
-
+		//Entrada de Dados:
+			//Entrada de Dados 1:
+			//Entrada de Dados com o Usuário:
+			escreva("Instrução Inválida")				
 		}
+				senao se(idade >= 5 e idade <= 7){
+			//Entrada de Dados 2:
+				escreva("A sua classificação é: Infantil A")				
+			}
+				senao se(idade >= 8 e idade <= 10){
+			//Entrada de Dados 3:
+				escreva("A sua classificação é: Infantil B")
+			}
+				senao se(idade >= 11 e idade <= 13){
+			//Entrada de Dados 4:
+				escreva("A sua classificação é: Juvenil A")
+			}
+				senao se(idade >= 14 e idade <= 17){
+			//Entrada de Dados 5:
+				escreva("A sua classificação é: Juvenil B")
+			}
+				senao se(idade >= 11 e idade <= 13){
+			//Entrada de Dados 6:
+				escreva("A sua classificação é: Juvenil B")
+			}
+				senao se(idade >= 18){
+			//Entrada de Dados 7:
+				escreva("A sua classificação é: Adulto")
+			}
+									
+	}
+
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
