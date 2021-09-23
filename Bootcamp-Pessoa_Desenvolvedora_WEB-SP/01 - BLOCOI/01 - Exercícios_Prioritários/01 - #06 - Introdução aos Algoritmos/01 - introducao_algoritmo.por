@@ -1,3 +1,4 @@
+//Package: Organizar Classes Relacionadas.
 programa{
 
 	/*Programa: Há quantos dias você está na Terra?
@@ -22,15 +23,11 @@ programa{
 				leia(anos)
 			
 			//Entrada de Dados 2:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
 				escreva("\nAgora... Em números, em que mês você nasceu?\n ")
-				//Para a leitura de dados.
 				leia(meses)
 			
 			//Entrada de Dados 3:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
 				escreva("\nEstamos quase lá... Em números, qual foi o dia em que você nasceu?\n ")
-				//Para a leitura de dados.
 				leia(dias)
 			
 		//Processamento de Dados:
@@ -41,8 +38,9 @@ programa{
 			//Saída de Dados com o Usuário, com Texto em Bloco. Com "dia", referenciando o resultado do processamento.
 			escreva("\nVocê está na terra há: " + dias + " dias\n\nObrigado!")
 			
-				}
-		}
+			}
+				
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
