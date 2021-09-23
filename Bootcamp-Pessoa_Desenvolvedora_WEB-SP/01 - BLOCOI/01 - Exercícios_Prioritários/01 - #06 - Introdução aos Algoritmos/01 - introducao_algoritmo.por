@@ -1,4 +1,4 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
 
 	/*Programa: Há quantos dias você está na Terra?
@@ -8,18 +8,18 @@ programa{
  	 * #06 - Introdução aos Algoritmos.
  	 * Exercício 1: Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.*/
 
-	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+	//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 	funcao inicio(){
 	
-		//Variável = Tipo de Dado + Declaração + Valor, respectivamente.
+		//Variável = Tipo de Dado + Declaração + Valor, respectivamente:
 			//inteiro diasAno = 365, diasMes = 30, dia, mes, ano
 			inteiro anos, meses, dias
 
 		//Entrada de Dados:
 			//Entrada de Dados 1:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
+				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Você gostaria de saber há quantos dias você está na Terra?\nSe sim, responda!\nEm números, quantos anos você tem?\n ")
-				//Para a leitura de dados.
+				//Para a leitura de dados:
 				leia(anos)
 			
 			//Entrada de Dados 2:
@@ -38,7 +38,7 @@ programa{
 			//Saída de Dados com o Usuário, com Texto em Bloco. Com "dia", referenciando o resultado do processamento.
 			escreva("\nVocê está na terra há: " + dias + " dias\n\nObrigado!")
 			
-			}
+	}
 				
 }
 /* $$$ Portugol Studio $$$ 
