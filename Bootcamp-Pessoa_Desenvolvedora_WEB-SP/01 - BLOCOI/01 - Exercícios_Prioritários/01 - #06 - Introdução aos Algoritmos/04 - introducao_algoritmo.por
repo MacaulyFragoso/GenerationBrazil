@@ -1,7 +1,7 @@
-//Package: Organizar Classes Relacionadas.
+//Package: Organizar Classes Relacionadas:
 programa{
 
-	/*Programa: CalculoExpress
+	/*Programa: CalculoExpress.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -11,17 +11,17 @@ programa{
 
  	inclua biblioteca Matematica --> mat
 
-		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos.
+		//Classe: Especificação de Atributos; Comportamento de Objetos, através de Métodos:
 		funcao inicio(){
 			
-			//Variável = Tipo de Dado + Declaração, respectivamente.
+			//Variável = Tipo de Dado + Declaração, respectivamente:
 				real numeroA, numeroB, numeroC, numeroR, numeroS, resultado
 
 			//Entrada de Dados:
-				//Entrada de Dados com o Usuário, com Texto em Bloco.
+				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite 3 números inteiros, sendo eles positivos: \n")
 				escreva("Numero A: ")
-				//Para a leitura de dados.
+				//Para a leitura de dados:
 				leia(numeroA)
 				
 				escreva("Numero B: ")
@@ -38,7 +38,7 @@ programa{
 				//Processamento de Dados 2:
 				resultado = (numeroR + numeroS) / 2
 
-			//Entrada de Dados:
+			//Saída de Dados:
 				escreva("O resultado da expressão é: " + resultado)
 				
 		}
