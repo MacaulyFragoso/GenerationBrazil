@@ -1,7 +1,7 @@
 //Package: Organizar Classes Relacionadas.
 programa{
 
-	/*Programa: LinerX
+	/*Programa: LinerX.
 	 * Autor: Macauly Fragoso.
  	 * Para: Bootcamp - Pessoa Desenvolvedora WEB SP | Generation Brazil.
  	 * BLOCO I.
@@ -20,7 +20,7 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para começarmos, digite o valor A: ")
-				//Para a leitura de dados.
+				//Para a leitura de dados:
 				leia(a)
 
 				escreva("Agora, digite o valor B: ")
@@ -45,7 +45,7 @@ programa{
 			//Saída de Dados:
 			escreva("O valor de X é: ",mat.arredondar(x, 2),"  e "," O valor de Y é: ",mat.arredondar(y,2))
 			
-			}
+		}
 		
 }
 /* $$$ Portugol Studio $$$ 
