@@ -21,7 +21,7 @@ programa{
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco:
 				escreva("Para iniciarmos, digite o valor de fábrica do veículo: ")
-				//Para a leitura de dados:
+				//Para a Leitura dos Dados Inseridos pelo Usuário:
 				leia(custoFabrica)
 
 			//Processamento de Dados:
