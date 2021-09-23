@@ -15,7 +15,7 @@ programa{
 		funcao inicio(){
 			
 			//Variável = Tipo de Dado + Declaração, respectivamente.
-				real numeroA,numeroB,numeroC,numeroR,numeroS,resultado
+				real numeroA, numeroB, numeroC, numeroR, numeroS, resultado
 
 			//Entrada de Dados:
 				//Entrada de Dados com o Usuário, com Texto em Bloco.
@@ -32,11 +32,8 @@ programa{
 
 			//Processamento de Dados:
 				//Processamento de Dados 1:
-				numeroR=(mat.potencia(numeroA, 2)) + (2*numeroA*numeroB)+(mat.potencia(numeroB, 2))
-	     		numeroS=(mat.potencia(numeroB, 2)) + (2*numeroC*numeroB)+(mat.potencia(numeroC, 2))
-				
-				//numeroR = mat.potencia((numeroA + numeroB),2)
-				//numeroS = mat.potencia((numeroB + numeroC),2)
+				numeroR=(mat.potencia (numeroA, 2)) + (2 * numeroA * numeroB) + (mat.potencia (numeroB, 2))
+	     			numeroS=(mat.potencia (numeroB, 2)) + (2 * numeroC * numeroB) + (mat.potencia (numeroC, 2))
 
 				//Processamento de Dados 2:
 				resultado = (numeroR + numeroS) / 2
