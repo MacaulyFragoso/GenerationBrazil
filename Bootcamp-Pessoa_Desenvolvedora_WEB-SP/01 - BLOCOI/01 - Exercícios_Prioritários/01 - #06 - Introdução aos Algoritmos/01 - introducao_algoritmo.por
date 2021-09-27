@@ -12,7 +12,6 @@ programa{
 	funcao inicio(){
 	
 		//Variável = Tipo de Dado + Declaração + Valor, respectivamente:
-			//inteiro diasAno = 365, diasMes = 30, dia, mes, ano
 			inteiro anos, meses, dias
 
 		//Entrada de Dados:
